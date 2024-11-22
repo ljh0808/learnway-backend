@@ -50,16 +50,9 @@
     </div>
 
     
-    <script>
-        $(document).ready(function() {
-            $(".btn-enter").click(function() {
-                var roomId = $(this).closest('.chat-card').data("room-id");
-                window.location.href = "/enterRoom?roomId=" + roomId;
-            });
-        });
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/js/study/chatList.js"></script>
     <script src="/js/consult/consultationReservation.js"></script>
     <script src="/js/consult/reservationList.js"></script>
     <script src="/js/icon.js"></script>
